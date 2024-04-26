@@ -1,5 +1,11 @@
-// This program generates all ceasar cipher combinations of a given string with some custom filtering on certain character combinations.
-
+/*
+--DISCLAIMER--
+This content is the property of David Z Kleinsorge and affiliated parites.
+Those who are permitted to access these documents shall respect and preserve the privacy, confidentiality, and security of the project.
+*/ /*
+This program generates all ceasar cipher combinations of a given string with some custom filtering on certain character combinations.
+This filtering is meant to narrow the output so as to increase the likelyhood of generating "sensible" names in the English language.
+*/
 #include <iostream>
 #include <cstring>
 #include <vector>

@@ -12,7 +12,6 @@ This filtering is meant to narrow the output so as to increase the likelyhood of
 #include <algorithm>
 using namespace std;
 
-
 string toLower(string s) {
     for (int i = 0; i < s.size(); ++i) {
         s[i] = tolower(s[i]);
@@ -39,11 +38,6 @@ void printIntVector(vector<int> v) {
     }
     cout << endl;
 }
-/*void printCharVector(vector<char> v) {
-    for (int i = 0; i < v.size(); ++i) {
-        cout << v[i];
-    }
-}*/
 
 vector<int> incrementVector(vector<int> v) {
     for (int i = 0; i < v.size(); ++i) {
